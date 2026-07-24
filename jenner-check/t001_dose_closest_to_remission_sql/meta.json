@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_dose_closest_to_remission_sql",
+  "source_file": "utl-indentify-the-dose-and-dose-date-before-and-closest-to-remission-date-using-sas-r-python-sql.sas",
+  "source_blob_sha": "e536ebcb827c6e31a87ed4ce7498d8f9a3180f9e",
+  "source_commit": "cea742c257c74f7a8bda81b81a955db483f9d24f",
+  "notes": "SAS/SQL solution: two inline cards4 DATA steps build sd1.master (10 rows) and sd1.trans (8 rows); a PROC SQL left join with a correlated having (r.remission-l.dose_date)=min(...) selects, per mouse, the dose_date before and closest to the remission date. Only edit: sd1 libname repointed from the author's Windows path d:/sd1 to (work) so the run needs no external directory; added a PROC PRINT of the computed WANT table to surface the result. R/Python engine blocks (%utl_rbeginx/%utl_pybeginx reading .sas7bdat) were not extracted -- they require external engines and files."
+}

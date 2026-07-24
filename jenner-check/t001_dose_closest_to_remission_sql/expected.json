@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-24T04:12:00Z",
+  "_captured_run_id": "r_609eadb64e474c81ac0a605345eb2783",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote sd1.master (10 rows, 3 columns).",
+    "NOTE: Wrote sd1.trans (8 rows, 2 columns).",
+    "NOTE: Table want created.",
+    "NOTE: PROC PRINT completed: 2 observations printed, 4 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
